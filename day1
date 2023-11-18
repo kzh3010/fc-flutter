@@ -1,0 +1,37 @@
+void main() {
+  // 참 // 거짓 bool
+  bool isTrue = true; //or false;
+  
+  // 정수형 int 
+  int num = 100;
+  
+  // 실수형 double 
+  double num2 = 3.14;
+  double num3 = 3;
+  
+  // 문자형 string - 선언시 대문자
+  String string = 'Hello World';
+  
+  
+  // Null형 null에는 null 만
+  Null thisIsNull = null ; 
+  
+  print(isTrue);
+  print(num);
+  print(num2);
+  print(num3);
+  print(string);
+  print(thisIsNull);
+  
+  // 가변형 
+  // var는 type이 변하면 안돼
+  var value = 1 ;
+  value = 3; 
+  
+  print(value);
+  
+  // dynamic은 type이 변해도 된다
+  dynamic dyn = 100;
+  dyn = 'hello world';
+  print(dyn);
+}
